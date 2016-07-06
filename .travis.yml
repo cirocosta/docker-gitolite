@@ -1,0 +1,12 @@
+nguage: generic
+services:
+    - docker
+
+install:
+    - ./build-image.sh
+
+script:
+    ./test.sh
+
+notifications:
+  email: false
