@@ -1,4 +1,4 @@
-nguage: generic
+language: generic
 services:
     - docker
 

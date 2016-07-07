@@ -25,7 +25,7 @@ RUN set -x && \
     mkdir /var/run/sshd                  
 
 ADD start.sh /start.sh
-RUN chmod a+x /start.sh
 
+VOLUME /home/git/keys
 EXPOSE 22
 CMD [ "/start.sh" ]
